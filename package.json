@@ -1,0 +1,18 @@
+{
+  "name": "malek-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@grammyjs/runner": "^2.0.3",
+    "dotenv": "^16.4.5",
+    "grammy": "^1.30.0",
+    "pg": "^8.12.0"
+  }
+}
